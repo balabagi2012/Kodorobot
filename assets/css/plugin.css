@@ -1,60 +1,189 @@
-
 /*banner*/
-.banner1{
-	background:url(images/9.jpg) no-repeat 0px 0px;
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-	min-height:300px;
+
+.banner1 {
+    background: url(images/9.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 300px;
 }
-.banner1 h3{
-	text-align: center;
+
+.banner1 h3 {
+    text-align: center;
     color: #212121;
     font-size: 2.5em;
     padding: .5em 0;
     position: relative;
-	margin:3em 0 0;
+    margin: 3em 0 0;
 }
-.banner1 h3:before{
-	border-top:4px double #fff;
-	content:'';
-	position:absolute;
-	top:0%;
-	left:40%;
+
+.banner1 h3:before {
+    border-top: 4px double #fff;
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 40%;
 }
-.banner1 h3:after{
-	border-bottom: 4px double #fff;
+
+.banner1 h3:after {
+    border-bottom: 4px double #fff;
     content: '';
     position: absolute;
     bottom: 0%;
     right: 40%;
 }
-.banner1 h3:before,.banner1 h3:after{
-	width: 20%;
-}
-/*wrapper*/
-#line{
-	background-color: #000;
-	padding-top: 30px;
 
+.banner1 h3:before,
+.banner1 h3:after {
+    width: 20%;
 }
+
+.banner2{
+    background: #2dcc70;
+    color: #fff;
+    padding: 20px 0
+}
+.banner2 h3 {
+    color: #fff;
+    font-size: 2.5em;
+    padding-top: .5em;
+}
+
+/*wrapper*/
+
+#line {
+    background-color: #000;
+    padding-top: 30px;
+}
+
+
 /*menu*/
-.menu1 h2{
-	color: #f49d25;
+
+.menu1 h2 {
+    color: #f49d25;
 }
+
 .menu1 {
-	color: #6b6b6b;
+    color: #6b6b6b;
+}
+
+
+/**/
+
+header h2 {
+    color: #3298c7;
+}
+
+header p {
+    color: #4298c7;
+}
+
+
+/**/
+
+.major {
+    color: #ffaa31;
+}
+
+
+/**/
+
+#logo {
+    width: 220px;
+    height: 80px;
+    background: url(images/logo.png) no-repeat 0 50%
+}
+
+
+/**/
+.download{
+    padding-top:3em; 
+    padding-bottom: 3em;
+    color: #34495e;
+}
+.download h3{
+    color: #34495e;
+    font-size: 24px
 }
 /**/
-header h2{
-	color: #3298c7;
+.photo{
+     padding-top:3em; 
+    padding-bottom: 3em;
 }
-header p{
-	color: #4298c7;
+.photo h3{
+    color: #34495e;
+    font-size: 22px
 }
 /**/
-.major{
-	color: #ffaa31;
+#faqs{
+    padding-top: 2em;
+}
+ul.faq {
+    list-style: none;
+    margin: 0
+}
+
+ul.faq li {
+    margin-top: 30px
+}
+
+ul.faq li:first-child {
+    margin-top: 0
+}
+
+ul.faq li span.number {
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #2dcc70;
+    color: #fff;
+    font-size: 24px
+}
+
+ul.faq li>div {
+    margin-left: 70px
+}
+
+ul.faq li>div h3 {
+    margin-top: 0
+}
+/**/
+.center{
+    text-align: center;
+}
+/**/
+#aboutus{
+    padding-top: 3em;
+}
+#aboutus h1{
+    font-size:40px;
+    color: #FF8000;
+}
+
+#aboutus h2{
+    font-size:32px;
+    font-weight: 700;
+    color: #34495e;
+}
+#aboutus h5{
+    font-size:18px;
+    font-weight: 700;
+    color: #34495e;
+}
+.box{
+    padding: 10px 10px 10px 10px;
+    margin:10px 10px 10px 10px;
+    background-color: #fff;
+}
+.up{
+    padding-top:4em;
+    margin-top:13em;
+}
+.down{
+    
 }

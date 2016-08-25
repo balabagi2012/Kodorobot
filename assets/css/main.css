@@ -516,8 +516,8 @@ Features-stack
 			display: block;
 			position: relative;
 			background: #c1cac5;
-			width: 12em;
-			height: 12em;
+			width: 8em;
+			height: 8em;
 			border-radius: 6em;
 			outline: 0;
 		}
@@ -809,7 +809,7 @@ footer {
   footer ul.footer-group li a:hover {
     color: #FF5274; }
   footer ul.footer-group li {
-    margin-right:40px; }
+     }
   footer ul.footer-group li:last-child {
     margin-right: 0; }
   footer span.fa-heart {
@@ -1085,13 +1085,12 @@ footer {
 				top: 0;
 				left: 0;
 				z-index: 1000;
-				background-color: #008BFF;
+				background-color: #fff;
 				width: 100%;
 				height: 5.25em;
 				line-height: 5.25em;
 				text-align: center;
 				font-family: 'Open Sans Condensed', sans-serif;
-				font-weight: 900;
 				text-transform: uppercase;
 				cursor: default;
 			}
@@ -1106,7 +1105,7 @@ footer {
 					display: inline-block;
 					margin: 0 0px 0 0px;
 					top: 0;
-					color:  #fff;
+					color:  #333;
 					position: relative;
 					-moz-transition: top .15s ease-in-out;
 					-webkit-transition: top .15s ease-in-out;
@@ -1128,13 +1127,13 @@ footer {
 						position: relative;
 						display: block;
 						text-decoration: none;
-						color:  #fff;
+						color:  #333;
 						top: -6px;
 						padding: 0.2em 1em 0.2em 1em;
 						border-bottom-left-radius: 6px;
 						border-bottom-right-radius: 6px;
 						outline: 0;
-						font-size: 15px;
+						font-size: 14px;
 				}
 					}
 
@@ -1142,17 +1141,17 @@ footer {
 						top: 3px;
 					}
 					#nav li.current a {
-						color: #555;
+						color: #2dcc70;
 					}
 
 					#nav li:hover a, #nav li:hover span {
 						background:#fff ;
-						color: #008BFF;
+						color: #2dcc70;
 					}
 
 					#nav li.active a, #nav li.active span {
 						background:#fff ;
-						color:#008BFF ;
+						color:#2dcc70 ;
 					}
 
 					
@@ -1176,19 +1175,19 @@ footer {
 
 				.dropotron li > a, .dropotron li > span {
 					display: block;
-					color: #999;
+					color: #333333;
 					text-decoration: none;
 					padding: 0 1.25em;
 				}
 
 				.dropotron li:hover > a, .dropotron li:hover > span {
 					color: #fff;
-					background: #7B8780;
+					background: #24a259;
 				}
 
 				.dropotron li.active > a, .dropotron li.active > span {
 					color: #fff;
-					background: #7B8780;
+					background: #24a259;
 				}
 
 				.dropotron li:first-child {
@@ -1609,7 +1608,7 @@ footer {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				padding-bottom: 0px;
+				padding:  0 0 0 3em;
 			}
 
 			#titleBar {
