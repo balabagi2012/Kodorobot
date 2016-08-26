@@ -331,7 +331,7 @@ Features-stack
 		font-weight: 700;
 		text-transform: uppercase;
 		text-decoration: none;
-		background: #b1ddab;
+		background: #1CBC2C;
 		color: #fff;
 		border: 0;
 		line-height: 1em;
@@ -359,6 +359,7 @@ Features-stack
 		button:active,
 		.button:active {
 			background: #a1cd9b;
+			color: #fff;
 		}
 
 		input[type="button"].alt,
@@ -804,8 +805,7 @@ footer {
   footer ul.footer-li li {
     display: block; }
   footer ul.footer-group li a {
-    font-size: 15px;
-    font-weight: 500; }
+    font-size: 13px; }
   footer ul.footer-group li a:hover {
     color: #FF5274; }
   footer ul.footer-group li {
@@ -1093,6 +1093,7 @@ footer {
 				font-family: 'Open Sans Condensed', sans-serif;
 				text-transform: uppercase;
 				cursor: default;
+				border-bottom: 3px inset ;
 			}
 
 				#nav ul {
